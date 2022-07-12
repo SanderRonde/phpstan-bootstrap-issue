@@ -11,3 +11,5 @@ class MyService implements Rule {
 		return [];
 	}
 }
+
+echo "Service loaded\n";

@@ -13,5 +13,9 @@
             "name": "\"Sander Ronde\"",
             "email": "awsdfgvhbjn@gmail.com"
         }
-    ]
+    ],
+    "scripts": {
+        "bad": "vendor/bin/phpstan analyze -c phpstan-bad.neon",
+        "good": "vendor/bin/phpstan analyze -c phpstan-good.neon"
+    }
 }
