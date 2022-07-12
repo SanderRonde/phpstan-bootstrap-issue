@@ -1,0 +1,12 @@
+parameters:
+	level: 9
+	bootstrapFiles:
+		- loader.php
+	paths:
+		- php
+
+services:
+	-
+		class: MyService
+		tags:
+			- phpstan.rules.rule

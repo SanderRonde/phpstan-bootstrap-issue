@@ -1,0 +1,17 @@
+{
+    "name": "sander/phpstan-bootstrap-issue",
+    "require": {
+        "phpstan/phpstan": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sander\\PhpstanBootstrapIssue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "\"Sander Ronde\"",
+            "email": "awsdfgvhbjn@gmail.com"
+        }
+    ]
+}
